@@ -1,0 +1,75 @@
+.container {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  .breadcrumb {
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .productContent {
+    display: flex;
+    gap: 2rem;
+  }
+  .imageWrapper {
+    flex: 1;
+  }
+  .infoWrapper {
+    flex: 1;
+  }
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .soon {
+    background: #f3dcdc;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  .colors {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+  }
+  .color {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .color.active {
+    border: 2px solid #000;
+  }
+  .quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 1rem 0;
+  }
+  .buyButton {
+    background: #f2c8c8;
+    padding: 10px 20px;
+    border: none;
+    cursor: not-allowed;
+  }
+  .shopPay {
+    color: #5a31f4;
+  }
+
+  .accordion {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .accordion div {
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  .accordion p {
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+  }
+  
+  
