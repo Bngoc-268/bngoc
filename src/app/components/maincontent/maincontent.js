@@ -8,8 +8,8 @@ const maincontent = () =>  {
         <main className={styles.mainContent}> 
         <section className={styles.content}> 
           <div className={styles.banner}>
-           <Image src="/image/banner 1.webp" alt="Banner 1" width={1150} height={500} className={styles.bannerImage} />
-           <Image src="/image/banner 2.webp" alt="Banner 2" width={1150} height={500} className={styles.bannerImage} />
+           <Image src="/Image/banner 1.webp" alt="Banner 1" width={1150} height={500} className={styles.bannerImage} />
+           <Image src="/Image/banner 2.webp" alt="Banner 2" width={1150} height={500} className={styles.bannerImage} />
 
         </div>
         </section> 
